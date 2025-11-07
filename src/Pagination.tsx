@@ -3,7 +3,7 @@ import React from "react";
 type PaginationProps = {
   currentPage: number;
   totalPages?: number;
-  onChange: (newPage: number) => void;
+  onChange: (newPage: number) =>  void;
 };
 
 /**
